@@ -1,0 +1,3 @@
+﻿Approach,Precision,Recall,F1
+Baseline,0.975,0.765,0.857
+HLQ,1.0,0.863,0.926

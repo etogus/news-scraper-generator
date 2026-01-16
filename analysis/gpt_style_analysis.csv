@@ -1,0 +1,121 @@
+﻿headline,newspaper,ai_model,approach,file,original_location_date,generated_location_date,original_quotes,generated_quotes,original_officials,generated_officials,original_sources,generated_sources
+"Президент Сербии Александр Вучич досрочно прервал визит в США из-за болезни, его госпитализировали",tvrain,gpt,neutral,tvrain_combined_gpt_04_05_18_42.csv,False,False,0,1,0,2,1,2
+Силовики сорвали концерт в баре Екатеринбурга,tvrain,gpt,neutral,tvrain_combined_gpt_04_05_18_42.csv,False,False,3,3,0,0,0,0
+На Москву и Подмосковье обрушился сильный снегопад,tvrain,gpt,neutral,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,2,0,0,0,3
+"Цена на «однушку» в Москве выросла на 86% за пять лет, цена студии — на 97%",tvrain,gpt,neutral,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,3,0,0,0,1
+"Во Владивостоке прошел детский парад «Правнуки Победы», на который пригласили детей из КНДР",tvrain,gpt,neutral,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,1,0,0,1,1
+В ближайшие дни на Землю упадет советская межпланетная станция «Космос-482» весом в полтонны,tvrain,gpt,neutral,tvrain_combined_gpt_04_05_18_42.csv,False,False,3,4,0,0,0,1
+"Ученые создали лекарство, нейтрализующее яд 19 самых смертоносных змей",tvrain,gpt,neutral,tvrain_combined_gpt_04_05_18_42.csv,False,False,0,0,0,0,0,0
+Релиз GTA VI перенесли на май 2026 года,tvrain,gpt,neutral,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,0,0,0,0,0
+Лавров и глава МИД Тоголезской Республики обменялись поздравительными телеграммами,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,1,0,2,4,2,3
+Президент Доминиканы встретился с главой МИД РФ,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,1,0,3,1,1,1
+Кабмин одобрил проект соглашения о безвизовом режиме с Мьянмой,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,1,1,1,0,0,0
+"Йеллен: пошлины, введенные Трампом, грозят стране рецессией",tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,4,1,2,2,1,1
+"Группа ""Аэрофлот"" с июня запустит два регулярных рейса между Красноярском и Анадырем",tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,7,5,0,0,2,1
+Цена Brent на ICE опустилась ниже $60 за баррель впервые с 9 апреля,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,0,0,0,0,1,0
+Посол РФ: сумма инвестиций России в Казахстан вдвое больше официальных данных,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,2,2,1,3,0,0
+В РФ дилеры ожидают роста продаж новых легковых авто за апрель на 15-20%,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,6,1,2,0,0,1
+Башкирия намерена делать упор на несырьевом неэнергетическом экспорте и экспорте услуг,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,3,2,1,2,0,0
+FT: ЕС может ограничить сроки соглашения с Лондоном в области продовольствия,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,1,0,0,0,2,0
+"""Авито Услуги"": спрос на услуги нянь в апреле в России вырос на 8%",tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,6,2,0,0,0,0
+В Госдуме опровергли сообщения о необходимости регистрации теплиц на дачах,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,2,2,2,2,0,0
+"На первый конкурс Президентского фонда природы подали более 1,6 тыс. заявок",tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,2,2,2,0,1,3
+В Москве более 500 человек приняли участие в акции солидарности профсоюзов,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,4,0,1,0,3,1
+"В Тверской области слесарь первым получил звание ""Герой Труда""",tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,3,4,1,0,2,0
+"Кабмин выделил ЕАО 233,6 млн рублей на реконструкцию моста через реку Хинган",tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,2,1,1,0,0,2
+Уровень воды в районе села Ильинка Тюменской области достиг пика,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,3,1,0,0,2,2
+По ОМС за последние несколько лет стали доступными 300 видов медпомощи,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,3,2,1,3,1,1
+И.о. президента Южной Кореи ушел в отставку,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,5,2,3,0,0,0
+Эксперт Барреро: вероятность повторного масштабного блэкаута в Испании мала,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,3,2,0,0,1,0
+Прокуратура Южной Кореи обвинила Юн Сок Ёля в превышении полномочий,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,2,0,0,0,1,3
+Верховный суд Южной Кореи не согласился с оправданием фаворита президентской гонки,tass,gpt,neutral,tass_combined_gpt_01_05_12_05.csv,True,False,1,0,1,0,0,1
+"Президент Сербии Александр Вучич досрочно прервал визит в США из-за болезни, его госпитализировали",tvrain,gpt,tass,tvrain_combined_gpt_04_05_18_42.csv,False,True,0,0,0,1,1,2
+Силовики сорвали концерт в баре Екатеринбурга,tvrain,gpt,tass,tvrain_combined_gpt_04_05_18_42.csv,False,False,3,2,0,0,0,0
+На Москву и Подмосковье обрушился сильный снегопад,tvrain,gpt,tass,tvrain_combined_gpt_04_05_18_42.csv,False,True,1,3,0,0,0,3
+"Цена на «однушку» в Москве выросла на 86% за пять лет, цена студии — на 97%",tvrain,gpt,tass,tvrain_combined_gpt_04_05_18_42.csv,False,True,1,3,0,0,0,0
+"Во Владивостоке прошел детский парад «Правнуки Победы», на который пригласили детей из КНДР",tvrain,gpt,tass,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,3,0,1,1,2
+В ближайшие дни на Землю упадет советская межпланетная станция «Космос-482» весом в полтонны,tvrain,gpt,tass,tvrain_combined_gpt_04_05_18_42.csv,False,True,3,5,0,0,0,1
+"Ученые создали лекарство, нейтрализующее яд 19 самых смертоносных змей",tvrain,gpt,tass,tvrain_combined_gpt_04_05_18_42.csv,False,True,0,1,0,0,0,0
+Релиз GTA VI перенесли на май 2026 года,tvrain,gpt,tass,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,1,0,0,0,1
+Лавров и глава МИД Тоголезской Республики обменялись поздравительными телеграммами,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,1,2,2,3,2,1
+Президент Доминиканы встретился с главой МИД РФ,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,1,2,3,1,1,2
+Кабмин одобрил проект соглашения о безвизовом режиме с Мьянмой,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,1,3,1,0,0,0
+"Йеллен: пошлины, введенные Трампом, грозят стране рецессией",tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,4,1,2,2,1,1
+"Группа ""Аэрофлот"" с июня запустит два регулярных рейса между Красноярском и Анадырем",tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,7,7,0,0,2,2
+Цена Brent на ICE опустилась ниже $60 за баррель впервые с 9 апреля,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,0,2,0,0,1,2
+Посол РФ: сумма инвестиций России в Казахстан вдвое больше официальных данных,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,2,2,1,2,0,1
+В РФ дилеры ожидают роста продаж новых легковых авто за апрель на 15-20%,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,6,4,2,0,0,2
+Башкирия намерена делать упор на несырьевом неэнергетическом экспорте и экспорте услуг,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,3,3,1,2,0,1
+FT: ЕС может ограничить сроки соглашения с Лондоном в области продовольствия,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,1,2,0,0,2,1
+"""Авито Услуги"": спрос на услуги нянь в апреле в России вырос на 8%",tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,6,6,0,0,0,3
+В Госдуме опровергли сообщения о необходимости регистрации теплиц на дачах,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,2,2,2,2,0,0
+"На первый конкурс Президентского фонда природы подали более 1,6 тыс. заявок",tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,2,2,2,0,1,1
+В Москве более 500 человек приняли участие в акции солидарности профсоюзов,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,4,3,1,0,3,0
+"В Тверской области слесарь первым получил звание ""Герой Труда""",tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,3,4,1,0,2,2
+"Кабмин выделил ЕАО 233,6 млн рублей на реконструкцию моста через реку Хинган",tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,2,3,1,0,0,2
+Уровень воды в районе села Ильинка Тюменской области достиг пика,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,3,3,0,0,2,1
+По ОМС за последние несколько лет стали доступными 300 видов медпомощи,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,3,3,1,4,1,1
+И.о. президента Южной Кореи ушел в отставку,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,5,2,3,0,0,1
+Эксперт Барреро: вероятность повторного масштабного блэкаута в Испании мала,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,3,3,0,0,1,0
+Прокуратура Южной Кореи обвинила Юн Сок Ёля в превышении полномочий,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,2,2,0,0,1,0
+Верховный суд Южной Кореи не согласился с оправданием фаворита президентской гонки,tass,gpt,tass,tass_combined_gpt_01_05_12_05.csv,True,True,1,1,1,0,0,0
+"Президент Сербии Александр Вучич досрочно прервал визит в США из-за болезни, его госпитализировали",tvrain,gpt,tvrain,tvrain_combined_gpt_04_05_18_42.csv,False,False,0,1,0,2,1,2
+Силовики сорвали концерт в баре Екатеринбурга,tvrain,gpt,tvrain,tvrain_combined_gpt_04_05_18_42.csv,False,False,3,1,0,0,0,0
+На Москву и Подмосковье обрушился сильный снегопад,tvrain,gpt,tvrain,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,0,0,0,0,0
+"Цена на «однушку» в Москве выросла на 86% за пять лет, цена студии — на 97%",tvrain,gpt,tvrain,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,1,0,0,0,0
+"Во Владивостоке прошел детский парад «Правнуки Победы», на который пригласили детей из КНДР",tvrain,gpt,tvrain,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,2,0,0,1,1
+В ближайшие дни на Землю упадет советская межпланетная станция «Космос-482» весом в полтонны,tvrain,gpt,tvrain,tvrain_combined_gpt_04_05_18_42.csv,False,False,3,2,0,0,0,0
+"Ученые создали лекарство, нейтрализующее яд 19 самых смертоносных змей",tvrain,gpt,tvrain,tvrain_combined_gpt_04_05_18_42.csv,False,False,0,0,0,0,0,0
+Релиз GTA VI перенесли на май 2026 года,tvrain,gpt,tvrain,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,0,0,0,0,0
+Лавров и глава МИД Тоголезской Республики обменялись поздравительными телеграммами,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,1,0,2,0,2,1
+Президент Доминиканы встретился с главой МИД РФ,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,1,2,3,1,1,0
+Кабмин одобрил проект соглашения о безвизовом режиме с Мьянмой,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,1,0,1,0,0,0
+"Йеллен: пошлины, введенные Трампом, грозят стране рецессией",tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,4,2,2,1,1,0
+"Группа ""Аэрофлот"" с июня запустит два регулярных рейса между Красноярском и Анадырем",tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,7,3,0,0,2,1
+Цена Brent на ICE опустилась ниже $60 за баррель впервые с 9 апреля,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,0,0,0,0,1,0
+Посол РФ: сумма инвестиций России в Казахстан вдвое больше официальных данных,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,2,0,1,1,0,0
+В РФ дилеры ожидают роста продаж новых легковых авто за апрель на 15-20%,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,6,0,2,0,0,1
+Башкирия намерена делать упор на несырьевом неэнергетическом экспорте и экспорте услуг,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,3,0,1,1,0,0
+FT: ЕС может ограничить сроки соглашения с Лондоном в области продовольствия,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,1,0,0,0,2,1
+"""Авито Услуги"": спрос на услуги нянь в апреле в России вырос на 8%",tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,6,3,0,0,0,0
+В Госдуме опровергли сообщения о необходимости регистрации теплиц на дачах,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,2,1,2,1,0,0
+"На первый конкурс Президентского фонда природы подали более 1,6 тыс. заявок",tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,2,0,2,0,1,1
+В Москве более 500 человек приняли участие в акции солидарности профсоюзов,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,4,1,1,0,3,1
+"В Тверской области слесарь первым получил звание ""Герой Труда""",tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,3,5,1,0,2,0
+"Кабмин выделил ЕАО 233,6 млн рублей на реконструкцию моста через реку Хинган",tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,2,0,1,0,0,2
+Уровень воды в районе села Ильинка Тюменской области достиг пика,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,3,0,0,0,2,2
+По ОМС за последние несколько лет стали доступными 300 видов медпомощи,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,3,0,1,0,1,0
+И.о. президента Южной Кореи ушел в отставку,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,5,0,3,1,0,1
+Эксперт Барреро: вероятность повторного масштабного блэкаута в Испании мала,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,3,3,0,0,1,0
+Прокуратура Южной Кореи обвинила Юн Сок Ёля в превышении полномочий,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,2,0,0,0,1,1
+Верховный суд Южной Кореи не согласился с оправданием фаворита президентской гонки,tass,gpt,tvrain,tass_combined_gpt_01_05_12_05.csv,True,False,1,0,1,0,0,0
+"Президент Сербии Александр Вучич досрочно прервал визит в США из-за болезни, его госпитализировали",tvrain,gpt,universal,tvrain_combined_gpt_04_05_18_42.csv,False,False,0,1,0,2,1,3
+Силовики сорвали концерт в баре Екатеринбурга,tvrain,gpt,universal,tvrain_combined_gpt_04_05_18_42.csv,False,False,3,0,0,0,0,0
+На Москву и Подмосковье обрушился сильный снегопад,tvrain,gpt,universal,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,1,0,0,0,1
+"Цена на «однушку» в Москве выросла на 86% за пять лет, цена студии — на 97%",tvrain,gpt,universal,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,3,0,0,0,0
+"Во Владивостоке прошел детский парад «Правнуки Победы», на который пригласили детей из КНДР",tvrain,gpt,universal,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,4,0,0,1,0
+В ближайшие дни на Землю упадет советская межпланетная станция «Космос-482» весом в полтонны,tvrain,gpt,universal,tvrain_combined_gpt_04_05_18_42.csv,False,False,3,3,0,0,0,0
+"Ученые создали лекарство, нейтрализующее яд 19 самых смертоносных змей",tvrain,gpt,universal,tvrain_combined_gpt_04_05_18_42.csv,False,False,0,1,0,0,0,1
+Релиз GTA VI перенесли на май 2026 года,tvrain,gpt,universal,tvrain_combined_gpt_04_05_18_42.csv,False,False,1,1,0,0,0,1
+Лавров и глава МИД Тоголезской Республики обменялись поздравительными телеграммами,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,1,2,2,2,2,0
+Президент Доминиканы встретился с главой МИД РФ,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,1,0,3,6,1,0
+Кабмин одобрил проект соглашения о безвизовом режиме с Мьянмой,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,1,4,1,2,0,0
+"Йеллен: пошлины, введенные Трампом, грозят стране рецессией",tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,4,1,2,3,1,1
+"Группа ""Аэрофлот"" с июня запустит два регулярных рейса между Красноярском и Анадырем",tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,7,5,0,0,2,1
+Цена Brent на ICE опустилась ниже $60 за баррель впервые с 9 апреля,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,0,0,0,0,1,0
+Посол РФ: сумма инвестиций России в Казахстан вдвое больше официальных данных,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,2,2,1,4,0,0
+В РФ дилеры ожидают роста продаж новых легковых авто за апрель на 15-20%,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,6,0,2,0,0,0
+Башкирия намерена делать упор на несырьевом неэнергетическом экспорте и экспорте услуг,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,3,2,1,1,0,1
+FT: ЕС может ограничить сроки соглашения с Лондоном в области продовольствия,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,1,1,0,0,2,2
+"""Авито Услуги"": спрос на услуги нянь в апреле в России вырос на 8%",tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,6,4,0,0,0,0
+В Госдуме опровергли сообщения о необходимости регистрации теплиц на дачах,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,2,2,2,1,0,0
+"На первый конкурс Президентского фонда природы подали более 1,6 тыс. заявок",tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,2,2,2,0,1,0
+В Москве более 500 человек приняли участие в акции солидарности профсоюзов,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,4,1,1,1,3,1
+"В Тверской области слесарь первым получил звание ""Герой Труда""",tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,3,4,1,0,2,0
+"Кабмин выделил ЕАО 233,6 млн рублей на реконструкцию моста через реку Хинган",tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,2,3,1,0,0,2
+Уровень воды в районе села Ильинка Тюменской области достиг пика,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,3,2,0,1,2,1
+По ОМС за последние несколько лет стали доступными 300 видов медпомощи,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,3,1,1,3,1,2
+И.о. президента Южной Кореи ушел в отставку,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,5,4,3,0,0,1
+Эксперт Барреро: вероятность повторного масштабного блэкаута в Испании мала,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,3,3,0,0,1,0
+Прокуратура Южной Кореи обвинила Юн Сок Ёля в превышении полномочий,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,2,0,0,0,1,0
+Верховный суд Южной Кореи не согласился с оправданием фаворита президентской гонки,tass,gpt,universal,tass_combined_gpt_01_05_12_05.csv,True,False,1,0,1,0,0,1
