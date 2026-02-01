@@ -1,0 +1,7 @@
+﻿Approach,Newspaper,N,Original_Quotes_Mean,Generated_Quotes_Mean,Original_Officials_Mean,Generated_Officials_Mean,Original_Sources_Mean,Generated_Sources_Mean
+Neutral,TASS,22,2.82,1.36,1.09,0.77,0.91,0.91
+Neutral,TVRAIN,8,1.25,1.75,0.0,0.25,0.25,1.0
+Tass,TASS,22,2.82,2.82,1.09,0.73,0.91,1.09
+Tvrain,TVRAIN,8,1.25,0.88,0.0,0.25,0.25,0.38
+Universal,TASS,22,2.82,1.95,1.09,1.09,0.91,0.59
+Universal,TVRAIN,8,1.25,1.75,0.0,0.25,0.25,0.75

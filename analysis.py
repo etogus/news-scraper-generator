@@ -445,10 +445,16 @@ def create_compact_summary(similarity_df, rouge_df, output_prefix=''):
     tfidf_rows = []
     rouge_rows = []
 
-    if not similarity_df.empty and 'ai_model' in similarity_df.columns and 'approach' in similarity_df.columns:
-        grouped = similarity_df.groupby(['ai_model', 'approach'])
+    # Process TF-IDF similarity metrics
+    if not similarity_df.empty and 'ai_model' in similarity_df.columns and 'approach' in similarity_df.columns and 'newspaper' in similarity_df.columns:
+        grouped = similarity_df.groupby(['approach', 'newspaper'])
         
-        for (ai_model, approach), group in grouped:
+        for (approach, newspaper), group in grouped:
+            if approach.lower() == 'tass' and newspaper.lower() != 'tass':
+                continue
+            if approach.lower() == 'tvrain' and newspaper.lower() != 'tvrain':
+                continue
+
             if 'headline' in group.columns:
                 n_unique = group['headline'].nunique()
             elif 'file' in group.columns:
@@ -460,8 +466,8 @@ def create_compact_summary(similarity_df, rouge_df, output_prefix=''):
                 n_unique = len(group)
             
             row = {
-                'AI_Model': ai_model.upper(),
                 'Approach': approach.capitalize(),
+                'Newspaper': newspaper.upper(),
                 'N': n_unique
             }
 
@@ -472,10 +478,15 @@ def create_compact_summary(similarity_df, rouge_df, output_prefix=''):
             
             tfidf_rows.append(row)
 
-    if not rouge_df.empty and 'ai_model' in rouge_df.columns and 'approach' in rouge_df.columns:
-        grouped = rouge_df.groupby(['ai_model', 'approach'])
+    if not rouge_df.empty and 'ai_model' in rouge_df.columns and 'approach' in rouge_df.columns and 'newspaper' in rouge_df.columns:
+        grouped = rouge_df.groupby(['approach', 'newspaper'])
         
-        for (ai_model, approach), group in grouped:
+        for (approach, newspaper), group in grouped:
+            if approach.lower() == 'tass' and newspaper.lower() != 'tass':
+                continue
+            if approach.lower() == 'tvrain' and newspaper.lower() != 'tvrain':
+                continue
+
             if 'headline' in group.columns:
                 n_unique = group['headline'].nunique()
             elif 'file' in group.columns:
@@ -487,8 +498,8 @@ def create_compact_summary(similarity_df, rouge_df, output_prefix=''):
                 n_unique = len(group)
             
             row = {
-                'AI_Model': ai_model.upper(),
                 'Approach': approach.capitalize(),
+                'Newspaper': newspaper.upper(),
                 'N': n_unique
             }
 
@@ -504,22 +515,22 @@ def create_compact_summary(similarity_df, rouge_df, output_prefix=''):
     tfidf_summary_df = pd.DataFrame()
     if tfidf_rows:
         tfidf_summary_df = pd.DataFrame(tfidf_rows)
-        column_order = ['AI_Model', 'Approach', 'N']
+        column_order = ['Approach', 'Newspaper', 'N']
         metric_cols = [col for col in tfidf_summary_df.columns if col not in column_order]
         column_order.extend(sorted(metric_cols))
         tfidf_summary_df = tfidf_summary_df[[col for col in column_order if col in tfidf_summary_df.columns]]
-        tfidf_summary_df = tfidf_summary_df.sort_values(['AI_Model', 'Approach']).reset_index(drop=True)
+        tfidf_summary_df = tfidf_summary_df.sort_values(['Approach', 'Newspaper']).reset_index(drop=True)
         tfidf_summary_df.to_csv(f'analysis/{output_prefix}tfidf_summary.csv', index=False, encoding='utf-8-sig')
         print(f"Saved TF-IDF summary to: analysis/{output_prefix}tfidf_summary.csv")
 
     rouge_summary_df = pd.DataFrame()
     if rouge_rows:
         rouge_summary_df = pd.DataFrame(rouge_rows)
-        column_order = ['AI_Model', 'Approach', 'N']
+        column_order = ['Approach', 'Newspaper', 'N']
         metric_cols = [col for col in rouge_summary_df.columns if col not in column_order]
         column_order.extend(sorted(metric_cols))
         rouge_summary_df = rouge_summary_df[[col for col in column_order if col in rouge_summary_df.columns]]
-        rouge_summary_df = rouge_summary_df.sort_values(['AI_Model', 'Approach']).reset_index(drop=True)
+        rouge_summary_df = rouge_summary_df.sort_values(['Approach', 'Newspaper']).reset_index(drop=True)
         rouge_summary_df.to_csv(f'analysis/{output_prefix}rouge_summary.csv', index=False, encoding='utf-8-sig')
         print(f"Saved ROUGE summary to: analysis/{output_prefix}rouge_summary.csv")
     
@@ -528,6 +539,62 @@ def create_compact_summary(similarity_df, rouge_df, output_prefix=''):
     else:
         print("No data for compact summary")
         return pd.DataFrame(), pd.DataFrame()
+
+def create_style_summary(style_df, output_prefix=''):
+    if style_df is None or style_df.empty:
+        print("No style data for summary")
+        return pd.DataFrame()
+    
+    style_rows = []
+    
+    if 'approach' in style_df.columns and 'newspaper' in style_df.columns:
+        grouped = style_df.groupby(['approach', 'newspaper'])
+        
+        for (approach, newspaper), group in grouped:
+            if approach.lower() == 'tass' and newspaper.lower() != 'tass':
+                continue
+            if approach.lower() == 'tvrain' and newspaper.lower() != 'tvrain':
+                continue
+
+            if 'headline' in group.columns:
+                n_unique = group['headline'].nunique()
+            else:
+                n_unique = len(group)
+            
+            row = {
+                'Approach': approach.capitalize(),
+                'Newspaper': newspaper.upper(),
+                'N': n_unique
+            }
+
+            if 'original_quotes' in group.columns:
+                row['Original_Quotes_Mean'] = round(group['original_quotes'].mean(), 2)
+            if 'generated_quotes' in group.columns:
+                row['Generated_Quotes_Mean'] = round(group['generated_quotes'].mean(), 2)
+
+            if 'original_officials' in group.columns:
+                row['Original_Officials_Mean'] = round(group['original_officials'].mean(), 2)
+            if 'generated_officials' in group.columns:
+                row['Generated_Officials_Mean'] = round(group['generated_officials'].mean(), 2)
+
+            if 'original_sources' in group.columns:
+                row['Original_Sources_Mean'] = round(group['original_sources'].mean(), 2)
+            if 'generated_sources' in group.columns:
+                row['Generated_Sources_Mean'] = round(group['generated_sources'].mean(), 2)
+            
+            style_rows.append(row)
+    
+    if style_rows:
+        style_summary_df = pd.DataFrame(style_rows)
+        # Sort
+        style_summary_df = style_summary_df.sort_values(['Approach', 'Newspaper']).reset_index(drop=True)
+        style_summary_df.to_csv(f'analysis/{output_prefix}style_summary.csv', index=False, encoding='utf-8-sig')
+        print(f"Saved style summary to: analysis/{output_prefix}style_summary.csv")
+        return style_summary_df
+    else:
+        print("No data for style summary")
+        return pd.DataFrame()
+
 
 def analyze_russian_news_style(text):
     """Analyze Russian news style conventions in the text."""
@@ -698,6 +765,7 @@ def run_full_pipeline(df: pd.DataFrame, output_prefix: str):
     style_df = analyze_style_by_approach(df, generated_cols)
     if not style_df.empty:
         style_df.to_csv(f'analysis/{output_prefix}style_analysis.csv', index=False, encoding='utf-8-sig')
+        create_style_summary(style_df, output_prefix=output_prefix)
 
     if not similarity_df.empty:
         similarity_df['headline_length_bucket'] = pd.cut(similarity_df['headline_length'],

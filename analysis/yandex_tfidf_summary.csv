@@ -1,5 +1,7 @@
-﻿AI_Model,Approach,N,TF-IDF_Similarity_to_Headline_Mean,TF-IDF_Similarity_to_Original_Mean
-YANDEX,Neutral,30,0.523,0.224
-YANDEX,Tass,30,0.385,0.23
-YANDEX,Tvrain,30,0.33,0.206
-YANDEX,Universal,30,0.386,0.22
+﻿Approach,Newspaper,N,TF-IDF_Similarity_to_Headline_Mean,TF-IDF_Similarity_to_Original_Mean
+Neutral,TASS,22,0.512,0.264
+Neutral,TVRAIN,8,0.551,0.115
+Tass,TASS,22,0.396,0.278
+Tvrain,TVRAIN,8,0.345,0.136
+Universal,TASS,22,0.374,0.252
+Universal,TVRAIN,8,0.419,0.131

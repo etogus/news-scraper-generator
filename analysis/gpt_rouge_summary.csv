@@ -1,5 +1,7 @@
-﻿AI_Model,Approach,N,ROUGE-1_F_Mean,ROUGE-2_F_Mean,ROUGE-L_F_Mean
-GPT,Neutral,30,0.22,0.068,0.204
-GPT,Tass,30,0.221,0.075,0.211
-GPT,Tvrain,30,0.175,0.052,0.165
-GPT,Universal,30,0.192,0.059,0.182
+﻿Approach,Newspaper,N,ROUGE-1_F_Mean,ROUGE-2_F_Mean,ROUGE-L_F_Mean
+Neutral,TASS,22,0.244,0.084,0.226
+Neutral,TVRAIN,8,0.154,0.027,0.142
+Tass,TASS,22,0.25,0.091,0.238
+Tvrain,TVRAIN,8,0.111,0.014,0.107
+Universal,TASS,22,0.213,0.074,0.203
+Universal,TVRAIN,8,0.134,0.018,0.125
